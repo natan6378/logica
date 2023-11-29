@@ -22,7 +22,7 @@
 </script>
 
 <script>
-    window.alert("Olá mundo!");
+   // window.alert("Olá mundo!");
  </script>
  
 <div id="textoAqui"> AQUI É O INNER HTML></div>
@@ -30,6 +30,29 @@
 <SCript>
     document.getElementById("textoAqui").innerHTML = "Ola Inner html";
 </SCript>
+
+<!--inputs para o javascript-->
+
+<script>
+//    var nome =  prompt("informe o seu nome:");
+//    console.log("nome digitado: " + nome);
+</script>
+
+
+<script>
+    // var confirmacao = confirm("deseja continuar?");
+    // console.log("resposta: " + confirmacao);
+</script>
+
+<input id="campoTexto" type="text" placeholder="Digite algo...">
+<button onclick="obtertexto()">obter Texto</button>
+<script>
+  function obtertexto(){
+var texto = document.getElementById("campoTexto").value;
+console.log("texto digitado: " + texto)
+  }
+</script>
+
 
 </body>
 </html>
